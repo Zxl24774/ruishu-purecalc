@@ -1,0 +1,70 @@
+{
+  "target": "",
+  "entry_path": "",
+  "api_paths": [],
+  "constants_version": "ruishu-purecalc-v1",
+  "headers": {
+    "user_agent": "",
+    "accept_language": "zh-CN,zh;q=0.9",
+    "referer": "",
+    "x_requested_with": "XMLHttpRequest"
+  },
+  "challenge": {
+    "same_session_required": true,
+    "cookie_s_name_sample": "",
+    "cd_source": "$_ts.cd",
+    "nsd_source": "$_ts.nsd",
+    "mainjs_url_sample": ""
+  },
+  "cookie": {
+    "t_name": "keys[7].split(';')[5] + 'T'",
+    "enable_cookie": "enable_<cookie_base>=true"
+  },
+  "code_uid": {
+    "source_keys": [33, 34],
+    "js_index_by_branch": {}
+  },
+  "suffix": {
+    "param_name": "keys[7].split(';')[1]",
+    "required": null,
+    "profile": {
+      "path_hash": null,
+      "uses_nd": null,
+      "uses_body": null,
+      "fresh_fields": []
+    }
+  },
+  "basearr": {
+    "field_order": [3, 10, 7, 0, 6, 2, 9, 13],
+    "branches": [
+      {
+        "name": "",
+        "condition": "",
+        "basearr_length": null,
+        "type10_length": null,
+        "type6_rule": "",
+        "type7_flag": "",
+        "code_uid_js_index": null
+      }
+    ]
+  },
+  "type3": {
+    "platform": "Win32",
+    "language": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "viewport": {},
+    "performance": {},
+    "source": "profiled-fixed-values"
+  },
+  "type2": {
+    "cp1_index_map": {}
+  },
+  "freshness": {
+    "never_reuse": ["cd", "nsd", "S", "T", "keys", "JSESSIONID", "nd", "suffix"]
+  },
+  "verification": {
+    "entry_200_command": "",
+    "api_json_command": "",
+    "fresh_session_count": 3
+  }
+}

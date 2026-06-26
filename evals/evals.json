@@ -1,0 +1,41 @@
+{
+  "skill_name": "ruishu-purecalc",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I have an authorized Ruishu test target. The first entry GET returns 412 with $_ts.cd and $_ts.nsd. Give me a pure-Python plan for passing the Cookie T second hop, and do not start with the business POST.",
+      "expected_output": "Should prioritize same-session challenge extraction, key decoding, codeUid, basearr, Cookie T encryption, second-hop 200 verification, and defer Ajax suffix work.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "My Ruishu second hop now returns a short 400 instead of 412. Browser can pass, and my Python Cookie T can be decrypted. What should I inspect next?",
+      "expected_output": "Should classify short 400 as basearr/profile mismatch and instruct decoding a passing browser Cookie T, parsing TLV, and byte-by-byte comparison before guessing.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "The same Ruishu site sometimes produces a 300-character Cookie T and sometimes a 279-character Cookie T. keys[22] is sometimes empty. Design a reusable branch strategy.",
+      "expected_output": "Should identify branch handling by keys[22]/basearr length/type10 length/codeUid JS choice, not hardcode one template.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "The collector passes Ruishu on my laptop but fails with 400 or 412 on another server. Sort the parameters into fixed profile values, fresh session values, and machine-sensitive values.",
+      "expected_output": "Should cover UA/type3 consistency, viewport/platform/timezone/system clock/proxy/TLS, and freshness of cd/nsd/S/T/keys/suffix.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Entry page is already 200 with pure Cookie T, but the XHR API returns 400 only when I remove the long URL parameter from a copied curl. What should the skill guide me to do?",
+      "expected_output": "Should keep Cookie T stable, classify this as Ajax suffix/signature work, derive suffix name from keys[7], and reject reusing captured suffix values.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "A target page does not return 412 and has no $_ts.cd. It only has a normal JSON API with a static token. Should Ruishu pure calculation be used?",
+      "expected_output": "Should not force Ruishu workflow; should first rule out cached cookies, redirects, wrong path, or non-Ruishu protection.",
+      "files": []
+    }
+  ]
+}
